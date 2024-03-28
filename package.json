@@ -1,29 +1,14 @@
 {
-  "author": "Kent Chunga",
-  "description": "A project for back end development and application programmable interfaces APIs",
-  "keywords": [
-    "nodejs",
-    "apis",
-    "backend",
-    "development",
-    "freecodecamp"
-  ],
-  "license": "MIT",
-  "version": "1.0.0",
-  "name": "fcc-learn-npm-package-json",
-  "dependencies": {
-    "express": "^4.14.0"
-  },
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/KentChunga/be-api.git"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.0"
-  }
+	"name": "fcc-learn-npm-package-json",
+	"dependencies": {
+		"express": "^4.14.0"
+	},
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/freeCodeCamp/boilerplate-npm.git"
+	}
 }
